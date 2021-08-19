@@ -900,13 +900,6 @@ section {
 
 @media (max-width: 1199px) {
   
-    #hero {
-     width: 100%;
-  height: 100vh;
-  background-size: cover;
-    background: url("../img/hero-bg1.jpg") top center;
-
-  }
   #footer {
     position: static;
     width: auto;
