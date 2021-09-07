@@ -481,7 +481,7 @@
 
             <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
              
-              <FORM method="post" action="mailto:zahraa95emad@gmail.com" enctype="text/plain"   class="email-form">
+               <form method="post" action="mailto:zahraa95emad@gmail.com?subject= " enctype="text/plain"   class="email-form">
                 <div class="row">
                   <div class="form-group col-md-6">
                     <label for="name">Your Name</label>
@@ -495,7 +495,7 @@
                 </div>
 
                 <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
+                  <label for="email">Your Email</label>
                   <input
                     type="email"
                     class="form-control"
@@ -508,17 +508,16 @@
                 
 
                 <div class="form-group">
-                  <label for="name">Subject</label>
+                  <label for="subject">Subject</label>
                   <input
                     type="text"
-                    class="form-control"
-                    name="subject"
-                    id="subject"
+                    class="form-control Sub"
+    
                     required
                   />
                 </div>
                 <div class="form-group">
-                  <label for="name">Message</label>
+                  <label for="message">Message</label>
                   <textarea
                     class="form-control"
                     name="message"
@@ -529,11 +528,11 @@
                
               
                 <div class="text-center">
-                  <button type="submit">Send Message</button>
+                  <button id="send" type="submit">Send Message</button>
                 </div>
 
                 
-                </FORM>
+              </form>
          
 
             </div>
