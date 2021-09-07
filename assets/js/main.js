@@ -252,5 +252,12 @@
       mirror: false
     })
   });
+  
+  
+  $("#send").click(function(){
+  var str = $("input.Sub").val();
+ 
+  $("form").attr("action","mailto:zahraa95emad@gmail.com?subject="+str+".")
+})
 
 })()
