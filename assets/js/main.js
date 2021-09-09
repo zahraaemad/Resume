@@ -254,10 +254,14 @@
   });
   
   
-  $("#send").click(function(){
-  var str = $("input.Sub").val();
+
+$("#send").click(function(){
+  var subject = $("input.Sub").val();
+  var name = $("#name").val();
+  var message = $("#message").val();
  
-  $("form").attr("action","mailto:zahraa95emad@gmail.com?subject="+str+".")
+  $("form").attr("action","mailto:zahraa95emad@gmail.com?subject="+subject+"&body= Name: "+name+
+  "%0D%0DMessage : "+message )
 })
 
 })()
