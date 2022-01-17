@@ -253,8 +253,8 @@
     })
   });
   
-  
-
+  const Age = (new Date().getFullYear()-1995);
+ 
 $("#send").click(function(){
   var subject = $("input.Sub").val();
   var name = $("#name").val();
